@@ -1,0 +1,65 @@
+.blok{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blok2{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blok div {
+    width: 400px;
+    height: 250px;
+    background-color: black;
+}
+.bayraq{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bayraq>div{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bayraq>div>div{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: red;
+}
+.dia{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    border: 2px solid rgb(54, 53, 53);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.dia div{
+width: 40px;
+background-color: aqua;
+}
+.dia div:first-child{
+  height:  250px;
+    }
+.dia div:nth-child(2){
+height:  174px;
+}
+.dia div:nth-child(3){
+    height:  92px;
+    }
+    .dia div:last-child{
+        height:  221px;
+        }
